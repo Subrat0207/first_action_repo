@@ -1,4 +1,7 @@
-from summ.sk_sum import sk_sum_1
+from summ.sk_sum import math_2
 def test_sum_1():
-    assert sk_sum_1(23,78) == 101
+    """
+    summary: Add Test
+    """
+    assert math_2.sk_sum_1(23,78) == 101
 

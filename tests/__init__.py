@@ -1,2 +1,0 @@
-import summ
-import diff
