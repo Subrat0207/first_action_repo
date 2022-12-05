@@ -40,3 +40,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Main program execution
+      run: |
+        main_program.py
