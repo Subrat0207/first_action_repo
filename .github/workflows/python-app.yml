@@ -42,4 +42,4 @@ jobs:
         pytest
     - name: Main program execution
       run: |
-        main_program.py
+        python main_program.py
