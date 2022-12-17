@@ -14,6 +14,34 @@ def cal():
     print("The diff is :",dif_1)
 
 
+class test:
+    count = 5 
+    def __init__(self,a):
+        self.a = a
+
+    def add_plus_one(self):
+        return self.a+1
+
+    @staticmethod
+    def add(a,b):
+        return a+b
+    
+    @classmethod
+    def add_plus_2(cls,val):
+        val = val+5
+        k = cls(val)
+        g = k.add_plus_one()
+        return g
+
+
+
 if __name__ == "__main__":
     print('Program Starts:')
-    cal()
+    d = test(5)
+    k = d.add_plus_one()
+    j = d.add_plus_2(20)
+    x = d.add(5,3)
+    print(d)
+    print(k)
+    print(x) 
+    print(j)
